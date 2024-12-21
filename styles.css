@@ -1,0 +1,122 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, #2a08ed, #1505ef, #2507ea);
+    color: #333;
+  }
+  
+  /* Header Section */
+  header {
+    background: linear-gradient(45deg, #ff758c, #ff7eb3);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0;
+  }
+  
+  header nav ul li {
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+    color: #ffd1dc;
+  }
+  
+  /* Section Styling */
+  .section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .section:nth-child(even) {
+    background: #f9f9f9;
+  }
+  
+  .section:nth-child(odd) {
+    background: white;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff7eb3;
+  }
+  
+  /* Skills Section */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .skill-card {
+    background: #ff7eb3;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Projects Section */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .project-card {
+    background: #ffd1dc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card h3 {
+    margin-top: 0;
+    color: #ff758c;
+  }
+  
+  /* Contact Section */
+  a {
+    color: #ff7eb3;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background: linear-gradient(45deg, #ff758c, #ff7eb3);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+  }
+  
